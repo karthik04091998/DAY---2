@@ -1,0 +1,27 @@
+
+
+windows object :
+
+   The window object represents an open window in a browser.Windows is parent object which contains document object.
+   All global JavaScript objects, functions, and variables automatically become members of the window object.Global
+   variables are properties of the window object. Global functions are methods of the window object.
+
+   Methods of window object:
+     
+     alert()      	displays the alert box containing message with ok button.
+     confirm()  	displays the confirm dialog box containing message with ok and cancel button.
+     prompt()	    displays a dialog box to get input from the user.
+     open()	        opens the new window.
+     close()	    closes the current window.
+     setTimeout()	performs action after specified time like calling function, evaluating expressions etc.
+
+Document object :
+
+     The document object represents a web page that is loaded in the browser. By accessing the document object,
+     we can access the element in the HTML page. With the help of document objects, we can add dynamic content to
+     our web page. The document object can be accessed with a window.document or just document.
+
+     Ex: document.property_name;
+
+
+      
